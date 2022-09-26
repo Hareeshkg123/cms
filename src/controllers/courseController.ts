@@ -7,6 +7,7 @@ import {
   getAllCourse,
 } from "../services/course";
 
+// add course
 export const addCourse = async (
   req: Request,
   res: Response,
@@ -23,6 +24,7 @@ export const addCourse = async (
   }
 };
 
+//update course
 export const updateCourseData = async (
   req: Request,
   res: Response,
@@ -39,6 +41,7 @@ export const updateCourseData = async (
   }
 };
 
+//delete course
 export const deleteCourse = async (
   req: Request,
   res: Response,
@@ -55,6 +58,7 @@ export const deleteCourse = async (
   }
 };
 
+//approve course
 export const approveCourse = async (
   req: Request,
   res: Response,
@@ -71,6 +75,7 @@ export const approveCourse = async (
   }
 };
 
+//view courses
 export const ViewCouse = async (
   req: Request,
   res: Response,

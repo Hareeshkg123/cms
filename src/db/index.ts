@@ -1,3 +1,6 @@
+/**
+ * Contains logic for connecting to the underlying DB.
+ */
 const mongoose = require("mongoose");
 
 mongoose

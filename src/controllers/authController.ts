@@ -9,6 +9,7 @@ import {
 import CreateError from "http-errors";
 const refresthTokenList: String[] = [];
 
+//signup
 export const signup = async (
   req: Request,
   res: Response,
@@ -33,6 +34,7 @@ export const signup = async (
   }
 };
 
+//login
 export const login = async (
   req: Request,
   res: Response,
@@ -54,6 +56,7 @@ export const login = async (
   }
 };
 
+//logout
 export const logout = async (
   req: Request,
   res: Response,

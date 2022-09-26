@@ -127,7 +127,6 @@ export const getAllCourse = async () => {
 
     return groupedCourses;
   } catch (error: unknown) {
-    const err = error as MongooseError;
     throw error;
   }
 };
