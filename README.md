@@ -1,36 +1,22 @@
-# auth-server-express
+# COURSE MANAGENT SYSTEM
 
-JWT Authentication server
+Sign up - 
+Create new Employee (name, email, password (encrypted), role )
+By default, Employee
 
-## Tech Stack
+Sign In - 
+Sign in with email and password
 
-- Typescript
-- Express
-- Prisma
-- Postgres
-- JWT
-- Bcrypt
-- Zod
+ Admin - 
+Create new course (title, description, video Url, topics array, duration, category, )
+Update existing course 
+Delete Course
 
-## Features
+ Super Admin - 
+Approve Created and updated course by admin (Note: Employee can only see course Approved by super Admin)
 
-- JWT authentication
+Employee - 
+View existing course (only if logged in and approved by super admin)
+Use Token for login
+Sort course category wise
 
-## Requirements
-
-- Nodejs
-
-## Installation
-
-- Create .env file from .env.example
-
-- You can use the following command to generate a random string for JWT secret [optional] to use in .env file.
-
-  > require('crypto').randomBytes(64).toString('hex')
-
-- Install dependencies
-
-  > npm install
-
-- Run the nodejs server and react client
-  > npm run dev
